@@ -1,0 +1,125 @@
+
+body {
+    background-image: url(./bg.jpg);
+}
+
+.login-form {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px black solid; */
+    min-width: 450px;
+    min-height: 70%;
+    display: grid;
+}
+
+.item {
+    font-family: 'Vazir', sans-serif;
+    color: white;
+    /* border: 1px red solid; */
+    margin: 1px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    
+}
+
+.login-text {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.under-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+::placeholder {
+    color: white;
+    font-family: 'Vazir', sans-serif;
+    font-size: 16px;
+    text-align: end;
+}
+
+.login-button {
+    margin-top: 15px;
+    align-self: end;
+}
+
+.login-button button{
+    opacity: .95;
+    font-family: 'Vazir', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+    background-color: rgb(29, 137, 228);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+
+}
+
+input {
+    color: whitesmoke;
+    font-family: 'Vazir', sans-serif;
+    font-size: 18px;
+}
+
+.username input {
+    background: transparent;
+    padding: 10px;
+    width: 95%;
+    text-align: end;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px white solid;
+}
+
+.password input {
+    background: transparent;
+    padding: 10px;
+    width: 95%;
+    text-align: end;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px white solid;
+}
+
+.remember-me {
+    
+    text-align: end;
+}
+    
+
+.pass-forget {
+    text-align: start;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-left: -10px;
+    position: absolute;
+    color: white;
+    min-width: 50px;
+}
+
+
+.footer-photo{
+    align-self: end;
+    text-align: center;
+}
+
+
+
+
